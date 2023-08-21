@@ -1,0 +1,91 @@
+/*todo: fix multi-line problem with info*/
+
+* {
+  /* css reset */
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  margin: 6vh 12vw; /*flexible margins according to viewport*/
+  background-color: #eaeaea; /*page's background*/
+  font-family: "Roboto", sans-serif;
+}
+#content {
+  background-color: #ffffff; /*recipe area background*/
+  border-radius: 10px;
+}
+
+h1 {
+  /*set recipe's title formatting*/
+  font-size: 28px;
+  font-weight: 700;
+  text-align: center;
+  padding-top: 80px;
+  padding-bottom: 20px;
+}
+h4 {
+  font-size: 20px;
+  font-weight: 700;
+  text-align: center;
+  padding-top: 20px;
+  padding-bottom: 20px;
+}
+
+.image {
+  /*set image to use all avaliable width and be centered in all axys*/
+  display: block;
+  object-fit: cover;
+  object-position: center;
+  /*set content's round borders*/
+  border-radius: 10px;
+  /*set content to centered*/
+  margin: auto;
+  margin-bottom: 0;
+  /*set content size*/
+  height: 270px;
+  width: 900px;
+  /*set content's border by restraining maximum width*/
+  max-width: 95%;
+}
+
+#image-description {
+  /*image desc's top margin, alignment & color*/
+  height: auto;
+  margin-top: 10px;
+  text-align: right;
+  color: #643636;
+}
+
+#info {
+  /*center content*/
+  text-align: center;
+  /*margin top/sides/bottom*/
+  margin: 15px auto 15px;
+  /*set max-width the same as main image*/
+  width: 900px;
+  max-width: 95%;
+}
+.text {
+  font-weight: 700;
+  display: inline-block;
+  /*vertical align text*/
+  vertical-align: middle;
+}
+.division {
+  border-radius: 5px;
+  background-color: #eaeaea;
+  /*set inside and outside distancing*/
+  padding: 10px 3%;
+  margin: auto 10px;
+}
+.icon {
+  height: 30px;
+  /*vertical align icons*/
+  vertical-align: middle;
+}
+
+ul {
+  line-height: 3em;
+}
