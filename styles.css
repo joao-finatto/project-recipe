@@ -60,7 +60,7 @@ h4 {
   height: auto;
   margin-top: 15px;
   text-align: right;
-  color: #643636;
+  color: #8F8F8F;
   font-size: 90%;
 }
 
@@ -91,18 +91,21 @@ h4 {
 }
 .icon {
   height: 25px;
-  /*vertical align icons*/
+  /*vertical align icons with text*/
   vertical-align: middle;
 }
 
 ul, ol{
+  /*lists style*/
   font-size: 16px;
   margin: auto 50px;
   list-style-position: inside;
 }
 
 li {
+  /*single list item line height*/
   line-height: 30px;
+  /*distance between each item*/
   margin-bottom: 1em;
 }
 
@@ -112,6 +115,7 @@ li {
 }
 
 footer {
+  color: #8F8F8F;
   text-align: center;
   margin: 50px auto;
   margin-bottom: -20px;
